@@ -5,13 +5,48 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="ServiceManager">
+      <UniqueIdentifier>{8eac66ba-5e33-44b3-9b14-b9abeacbfec9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="MemoryManager">
+      <UniqueIdentifier>{4ad73d7f-532e-4984-a314-83d212525bf2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{35c1a548-9f32-4d89-b05d-3d8301071436}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IService.h">
+      <Filter>ServiceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceManager.h">
+      <Filter>ServiceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeLagService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfoService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
